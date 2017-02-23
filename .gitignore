@@ -1,0 +1,8 @@
+node_modules
+.env
+*js
+*js.map
+dist
+npm-debug.log
+bower_components
+!webpack.*.js
