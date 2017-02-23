@@ -18,12 +18,12 @@ const config = [
       template: '<layout></layout>'
     })
 
-  $httpProvider.interceptors.push([
-    '$injector',
-    function ($injector) {
-      return $injector.get('authInterceptor');
-    }
-  ]);
+  // $httpProvider.interceptors.push([
+  //   '$injector',
+  //   function ($injector) {
+  //     return $injector.get('authInterceptor');
+  //   }
+  // ]);
   $locationProvider.html5Mode(true);
   $urlRouterProvider.otherwise('/');
 }];
